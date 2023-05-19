@@ -1492,7 +1492,7 @@ a {
   .contact-form-select select {
     width: 100%;
     font-size: 14px;
-    padding: 10px;
+    padding: 8px 10px;
     height: 38px;
   }
 }
