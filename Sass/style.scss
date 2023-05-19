@@ -1180,7 +1180,7 @@ a {
 
 .contact-header {
   text-align: center;
-  padding: 56px;
+  padding: 52px;
   color: #fff;
   background: url(../img/contact1.png) center center / cover no-repeat;
   border-radius: 12px 12px 0 0;
@@ -1192,8 +1192,10 @@ a {
   .section-title {
     color: #fff;
     margin-bottom: 16px;
+    margin-top: 8px;
     @include var.mq("sp") {
       margin-bottom: 12px;
+      margin-top: 0;
     }
   }
 }
@@ -1224,7 +1226,10 @@ a {
   }
 
   & + & {
-    margin-top: 29px;
+    margin-top: 32px;
+    @include var.mq("sp"){
+      margin-top: 29px;
+    }
   }
 }
 
@@ -1327,7 +1332,7 @@ a {
     color: inherit;
     font-family: inherit;
     font-size: 16px;
-    padding: 11px;
+    padding: 10px;
     height: 40px;
     width: 178px;
     cursor: pointer;
@@ -1535,8 +1540,8 @@ a {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
+    width: 19px;
+    height: 19px;
     border: 1px solid #707070;
     background: #fff;
 
@@ -1676,7 +1681,7 @@ a {
 
 .footer-sns-item {
   & + & {
-    margin-left: 32px;
+    margin-left: 30px;
     @include var.mq("sp") {
       margin-left: 50px;
     }
@@ -1684,7 +1689,7 @@ a {
   a {
     opacity: 0.6;
     color: #fff;
-    font-size: 38px;
+    font-size: 39px;
     @include var.mq("pc") {
       &:hover {
         opacity: 0.3;
