@@ -427,7 +427,7 @@ a {
   @include var.mq("pc") {
     font-size: 18px;
     letter-spacing: (0.45 / 18 * 1em);
-    flex: 0 0 99x;
+    flex: 0 0 99px;
   }
   @include var.mq("sp") {
     font-size: 14px;
@@ -1415,7 +1415,7 @@ a {
 
   &:active {
     &::before {
-      border: 1ps solid var.$blue;
+      border: 1px solid var.$blue;
       background: rgba(73, 115, 255, 0.2);
     }
   }

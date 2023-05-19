@@ -472,8 +472,8 @@ a {
     font-size: 18px;
     letter-spacing: 0.025em;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 99x;
-            flex: 0 0 99x;
+        -ms-flex: 0 0 99px;
+            flex: 0 0 99px;
   }
 }
 @media (max-width: 767px) {
@@ -1559,7 +1559,7 @@ a {
   border: 1px solid #3b69ff;
 }
 .contact-radio-part:active::before {
-  border: 1ps solid #4973FF;
+  border: 1px solid #4973FF;
   background: rgba(73, 115, 255, 0.2);
 }
 .contact-radio-part::after {
