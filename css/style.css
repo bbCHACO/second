@@ -1478,6 +1478,7 @@ a {
           appearance: none;
   border: 1px solid #707070;
   border-radius: 0;
+  background-color: #fff;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: inherit;
